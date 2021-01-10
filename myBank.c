@@ -1,6 +1,6 @@
 #define len 50
 #define status 2
-#include "myBank.h"
+#include "‏‏myBank.h"
 
 static double arr[50][2];
 
@@ -87,7 +87,7 @@ void D()
             {
                 arr[temp][0] += t;
                 int m = temp + 901;
-                printf("The balance of account number %d is: %.2lf \n" ,m ,  arr[temp][0]);
+                printf("The new balance of account number %d is: %.2lf \n" ,m ,  arr[temp][0]);
             }
             else if(t < 0)
             {
